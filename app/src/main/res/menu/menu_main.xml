@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_weight" android:title="@string/action_weight"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_goal" android:title="@string/action_goal"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_units" android:title="@string/action_units"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_history" android:title="@string/action_history"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_share1" android:title="@string/action_share1"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_help" android:title="@string/action_help"
+        android:orderInCategory="100" />
+</menu>

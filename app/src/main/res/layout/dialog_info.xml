@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:padding="15dp">
+
+		<TextView
+			android:id="@+id/title"
+			style="@android:style/TextAppearance.Large"
+			android:layout_width="fill_parent"
+			android:layout_height="40dp"
+			android:layout_alignParentLeft="true"
+			android:gravity="center_vertical"
+			android:maxLines="1"
+			android:scrollHorizontally="true"
+			android:singleLine="true"
+			android:text="Info"
+			android:textColor="@android:color/holo_blue_dark" />
+
+
+	</RelativeLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="@android:color/holo_blue_dark" />
+
+
+	<LinearLayout
+		android:id="@+id/currencyAmount"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:orientation="horizontal"
+		android:paddingTop="20dp"
+		android:paddingBottom="60dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:layout_below="@+id/currencyBox"
+>
+
+		<LinearLayout
+			android:id="@+id/weightLeftL"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="0.1"
+			android:clickable="true"
+			android:gravity="right"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:orientation="horizontal">
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_weight="0.8"
+			android:clickable="true"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/info"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:text="info message"
+				android:textColor="@android:color/white"
+				android:textSize="20sp" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/weightRightL"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_horizontal"
+			android:layout_weight="0.1"
+			android:clickable="true"
+			android:orientation="horizontal"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp">
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="?android:attr/dividerHorizontal" />
+
+
+	<LinearLayout
+		style="?android:attr/buttonBarStyle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingTop="0dip"
+		android:paddingLeft="2dip"
+		android:paddingRight="2dip"
+		android:measureWithLargestChild="true">
+
+
+		<Button
+			android:id="@+id/yesButton"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textColor="@android:color/holo_blue_dark"
+			android:text="OK"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
+

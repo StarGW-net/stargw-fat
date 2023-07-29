@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.stargw.fat">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fat3"
+        android:roundIcon="@drawable/fat_round"
+        android:label="@string/app_name"
+        android:theme="@style/SWTheme"
+        android:name="net.stargw.fat.Global">
+
+        <activity
+            android:name="net.stargw.fat.ActivityMain"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <!-- android:theme="@style/Theme.AppCompat.NoActionBar" -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="net.stargw.fat.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+
+        </provider>
+
+    </application>
+</manifest>

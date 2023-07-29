@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">STARWeight</string>
+    <string name="action_weight">Enter Weight</string>
+    <string name="action_help">Help</string>
+    <string name="action_share1">Share Screen</string>
+    <string name="action_share2">Share Graph</string>
+    <string name="action_export">&#160;&#160;Export</string>
+    <string name="action_history">View/Edit History</string>
+    <string name="action_goal">Set Goal</string>
+    <string name="action_units">Toggle KG/LBs</string>
+    <string name="action_import">&#160;&#160;Import (replace)</string>
+    <string name="action_delete">&#160;&#160;Delete All</string>
+    <string name="httpurl">http://wwww.stargw.net/apps/fat/help.html?ver=</string>
+    <string name="left">&lt;</string>
+    <string name="right">&gt;</string>
+    <string name="exportFormat">dd MMM yyyy</string>
+    <string name="displayFormat">E d MMM yyyy</string>
+    <string name="fileFormat">yyyy-MM-dd</string>
+    <string name="exportFormat2">dd/MM/YYYY</string>
+    <string name="fatFormat">yyyyMMdd</string>
+</resources>
