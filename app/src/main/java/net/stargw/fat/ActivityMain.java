@@ -1553,6 +1553,12 @@ public class ActivityMain extends Activity {
             myHelp.setVisibility(View.INVISIBLE);
         }
 
+        ImageView myIcon = (ImageView) view.findViewById(R.id.activity_main_menu_icon);
+        if (myIcon != null) {
+            myIcon.setVisibility(View.INVISIBLE);
+        }
+
+
         view.setDrawingCacheEnabled(true);
         Bitmap bitmap = view.getDrawingCache();
 
@@ -1597,6 +1603,10 @@ public class ActivityMain extends Activity {
 
         if (myHelp != null) {
             myHelp.setVisibility(View.VISIBLE);
+        }
+
+        if (myIcon != null) {
+            myIcon.setVisibility(View.VISIBLE);
         }
 
     }
@@ -1756,7 +1766,10 @@ public class ActivityMain extends Activity {
             verName = "unknown";
         }
 
-        String url = "https://www.stargw.net/apps/fat/help.html?ver=" + verName;
+        String app = getString(R.string.app_name);
+
+        String url = "https://www.stargw.net/android/help.html?ver=" + verName + "&app=" + app;
+
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
