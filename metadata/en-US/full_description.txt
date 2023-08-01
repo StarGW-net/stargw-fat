@@ -5,5 +5,5 @@ A simple app to record your weight and show a graph.
 
 Version 14
 ==========
-First Fdroid Vesion
+First Fdroid Version
 
