@@ -11,7 +11,7 @@ A simple app to record your weight and show a graph.
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="80">](https://www.stargw.net/android/apks.html?net.stargw.fx)
+     height="80">](https://www.stargw.net/android/apks.html?net.stargw.fat)
     
 Buy Developer a Coffee:
 <br>
