@@ -4,7 +4,7 @@ A simple app to record your weight and show a graph.
 • Share graphs<br>
 
 <table><tr><td>
-<img src="https://github.com/StarGW-net/stargw-fat/blob/main/metadata/en-US/images/phoneScreenshots/01b.png?raw=true"
+<img src="https://github.com/StarGW-net/stargw-fat/blob/main/metadata/en-US/images/phoneScreenshots/1.png?raw=true"
      alt="Weight"
      height="320">
 </td></tr></table>
